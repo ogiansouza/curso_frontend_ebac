@@ -1,0 +1,16 @@
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header li {
+    display: inline;
+    margin-left: 8px;
+}

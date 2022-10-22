@@ -1,16 +1,16 @@
 {
-  "name": "less",
+  "name": "css-especificidade",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "less": "less-watch-compiler ./src/styles ./build/styles main.less",
+    "sass": "sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "less": "^4.1.3",
-    "less-watch-compiler": "^1.16.3"
+    "sass": "^1.55.0"
   }
 }
